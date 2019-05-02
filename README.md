@@ -15,23 +15,14 @@ For the Angular app, install dependencies with:
 npm install
 ```
 
-The backend server requires Python 3.6+. Its only dependency is [Bocadillo], which can be installed using:
-
-```bash
-pip install bocadillo
-```
-
-Alternatively, if you're using [pipenv](https://github.com/pypa/pipenv), you can run `pipenv install`.
-
 ## Quick start
 
-First, fire up the backend server:
-
-```bash
-python app.py
+The backend server runs on node. Simply type:
+```
+node serve.js
 ```
 
-It will be running at `http://localhost:8000`.
+It will be running at `http://localhost:3000`.
 
 You can then start the Angular dev server using:
 
@@ -39,7 +30,7 @@ You can then start the Angular dev server using:
 ng serve
 ```
 
-Navigate to `http://localhost:4200` to see the result. 🎊
+Navigate to `http://localhost:4200` to see the result.
 
 ## License
 

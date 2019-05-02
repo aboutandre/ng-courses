@@ -8,7 +8,7 @@ import { map } from "rxjs/operators";
   providedIn: "root"
 })
 export class CourseService {
-  private baseUrl = "http://localhost:8000/courses";
+  private baseUrl = "http://localhost:3000/courses";
 
   constructor(private http: HttpClient, private adapter: CourseAdapter) {}
 
